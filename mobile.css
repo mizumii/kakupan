@@ -283,3 +283,8 @@ ul.info {
 _::-webkit-full-page-media, _:future, :root.ul.info{
   width:90%; 
 }
+.tutu {
+    display: flex;
+    margin: 0 auto;
+    width: 96%;
+}
