@@ -280,3 +280,6 @@ ul.info {
 .modal-wrapper .modal-close:hover {
   color: #2b2e38 !important
 }
+_::-webkit-full-page-media, _:future, :root.ul.info{
+  width:90%; 
+}
