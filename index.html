@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mobile.css" type="text/css"
+    media="screen and (max-width: 899px)">
+    <link rel="stylesheet" href="pc.css" type="text/css"
+    media="screen and (min-width: 900px)">
+    <!-- CSSの読み込み -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.min.css"/>
+   <!-- JavaScriptの読み込み -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.0/flickity.pkgd.min.js"></script>
+    <script>
+  (function(d) {
+    var config = {
+      kitId: 'tue3bqp',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+    <title>架空のパン屋</title>
+  </head>
+  <header>
+    <div class="logo">
+      架空のパン屋
+      <p>パン工房</p>
+    </div>
+    <div class="menu">
+      menu
+      <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+        <ul>
+          <a href="#menu"><li>メニュー</li></a>
+          <a href="#media"><li>メディア</li></a>
+          <a href="#ac"><li>アクセス</li></a>
+        </ul>
+      </div>
+  </div>
+    </div>
+  </header>
+  <body>
+    <div class="catch">
+      <img src="top.png" alt="" class="mobile">
+      <img src="top1.png" alt="" class="pc">
+    </div>
+    <div class="matome">
+    <section>
+      <div class="modal-wrapper" id="modal-01">
+        <a href="#!" class="modal-overlay"></a>
+        <div class="modal-window">
+        <div class="modal-content">
+        <img src="p1.png" alt="2019.10 パンフェス">
+        <p>フランスパン</p>
+        <div class="setumei">
+        適度な硬さと塩気が美味しい定番商品
+        </div>
+        </div>
+        <a href="#!" class="modal-close">×</a>
+        </div>
+      </div>
+      <div class="modal-wrapper" id="modal-02">
+        <a href="#!" class="modal-overlay"></a>
+        <div class="modal-window">
+        <div class="modal-content">
+        <img src="p2.png" alt="2019.10 パンフェス">
+        <p>ホイップあんぱん</p>
+        <div class="setumei">
+        ホイップとこしあん、塩っ気のあるバターを合わせた菓子パン
+        </div>
+        </div>
+        <a href="#!" class="modal-close">×</a>
+        </div>
+      </div>
+      <div class="modal-wrapper" id="modal-03">
+        <a href="#!" class="modal-overlay"></a>
+        <div class="modal-window">
+        <div class="modal-content">
+        <img src="p3.png" alt="2019.10 パンフェス">
+        <p>フルーツデニッシュ</p>
+        <div class="setumei">
+          いちごの爽やかな酸味とデニッシュの甘さが美味しい一品
+        </div>
+        </div>
+        <a href="#!" class="modal-close">×</a>
+        </div>
+      </div>
+      <h2 id="menu">メニュー</h2>
+        <div class="median">
+          <a href="#modal-01">
+          <img src="p1.png" alt="2019.10 パンフェス">
+          </a>
+          <a href="#modal-02">
+          <img src="p2.png" alt="2019.10 パンフェス">
+          </a>
+          <a href="#modal-03">
+          <img src="p3.png" alt="2019.10 パンフェス">
+          </a>
+          <img src="p1.png" alt="2019.10 パンフェス">
+          <img src="p2.png" alt="2019.10 パンフェス">
+          <img src="p3.png" alt="2019.10 パンフェス">
+        <script type="text/javascript">
+        var flkty = new Flickity( '.median', {
+          // options
+        });
+        </script>
+      </div>
+        <br>  <br>
+      <p>定番の食パンからフルーツ系のデニッシュ、
+お惣菜パンまで豊富な種類のパンが揃っています。
+試食コーナーも充実しております。</p>
+      <br>
+      <div class="button">
+        最新情報をInstagramでチェック
+      </div>
+    </section>
+    <section>
+      <h2>お知らせ</h2>
+      <ul class="info">
+        <li>期間限定のマロンパン販売開始しました 2020.5.20</li>
+        <li>北陸のパン祭りに出店決定！ 2020.5.5</li>
+        <li>架空のパン屋のWEBサイトが完成しました 2020.5.0</li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="media">メディア</h2>
+      <img src="m1.png" alt="">
+    <br>
+      <p>2019.10 パンフェス</p>
+      <br>
+      <p>富山県・石川県を中心とする
+人気パン屋さんが一挙に北陸最大級のパンまつり
+「パンフェス」に出展・両日完売しました。
+</p>
+      <div class="button">
+        最新情報をInstagramでチェック
+      </div>
+    </section>
+    <section class="ac">
+      <h2 id="ac">アクセス</h2>
+      <img src="ac.jpg" alt="">
+      <br>
+      <p>住所　富山県 富山市 000000000</p>
+      <p>電話　076-000-0000</p>
+      <p>営業時間　月水木金土祝　8:00〜18:00</p>
+    </section>
+  </div>
+  </body>
+  <footer>架空のパン屋</footer>
+</html>
